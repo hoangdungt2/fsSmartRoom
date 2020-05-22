@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30105.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "libDatabase", "libDatabase\libDatabase.fsproj", "{387AEF2F-893A-4CA5-926A-127CEC727220}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "libEdgeDevice", "libEdgeDevice\libEdgeDevice.fsproj", "{073646CC-5959-4C96-B9C2-E5C88E35BF8C}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "libLogger", "libLogger\libLogger.fsproj", "{DFDC7D60-B751-4B4C-AA1F-6C8EFD235A96}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "libMqtt", "libMqtt\libMqtt.fsproj", "{EDB5C5E1-B08C-4402-9C38-DAA583A06DC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{B1CBA6F1-279F-4D45-B871-5CBB68DB9203}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{9BE85B0E-5588-4899-B423-29E4C64F2D5A}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "appMonitorTempHumid", "appMonitorTempHumid\appMonitorTempHumid.fsproj", "{8B14350D-509F-4634-9349-79D513EA86CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{07826974-89B6-48CF-BFB3-D2FED685397A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		diagram.png = diagram.png
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "libAws", "libAws\libAws.fsproj", "{CC2A54CA-1049-4CFC-90EE-52522B5796C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OtherItems", "OtherItems", "{A5016EA9-BDCC-4A0F-8CA1-91018301CF90}"
+	ProjectSection(SolutionItems) = preProject
+		smartRoomDbCredential.json = smartRoomDbCredential.json
+		smartRoomMqttCredential.json = smartRoomMqttCredential.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AWS", "AWS", "{292884BC-D56F-4AEA-A6E1-AB0BFC8603E1}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "lambdaSQStoDb", "lambdaSQStoDb\lambdaSQStoDb.fsproj", "{D9362044-7195-40FD-8CBD-4F6F17024EB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{387AEF2F-893A-4CA5-926A-127CEC727220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{387AEF2F-893A-4CA5-926A-127CEC727220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{387AEF2F-893A-4CA5-926A-127CEC727220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{387AEF2F-893A-4CA5-926A-127CEC727220}.Release|Any CPU.Build.0 = Release|Any CPU
+		{073646CC-5959-4C96-B9C2-E5C88E35BF8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073646CC-5959-4C96-B9C2-E5C88E35BF8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073646CC-5959-4C96-B9C2-E5C88E35BF8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073646CC-5959-4C96-B9C2-E5C88E35BF8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFDC7D60-B751-4B4C-AA1F-6C8EFD235A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFDC7D60-B751-4B4C-AA1F-6C8EFD235A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFDC7D60-B751-4B4C-AA1F-6C8EFD235A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFDC7D60-B751-4B4C-AA1F-6C8EFD235A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDB5C5E1-B08C-4402-9C38-DAA583A06DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB5C5E1-B08C-4402-9C38-DAA583A06DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB5C5E1-B08C-4402-9C38-DAA583A06DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB5C5E1-B08C-4402-9C38-DAA583A06DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B14350D-509F-4634-9349-79D513EA86CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B14350D-509F-4634-9349-79D513EA86CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B14350D-509F-4634-9349-79D513EA86CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B14350D-509F-4634-9349-79D513EA86CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC2A54CA-1049-4CFC-90EE-52522B5796C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC2A54CA-1049-4CFC-90EE-52522B5796C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC2A54CA-1049-4CFC-90EE-52522B5796C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC2A54CA-1049-4CFC-90EE-52522B5796C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9362044-7195-40FD-8CBD-4F6F17024EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9362044-7195-40FD-8CBD-4F6F17024EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9362044-7195-40FD-8CBD-4F6F17024EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9362044-7195-40FD-8CBD-4F6F17024EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{387AEF2F-893A-4CA5-926A-127CEC727220} = {B1CBA6F1-279F-4D45-B871-5CBB68DB9203}
+		{073646CC-5959-4C96-B9C2-E5C88E35BF8C} = {B1CBA6F1-279F-4D45-B871-5CBB68DB9203}
+		{DFDC7D60-B751-4B4C-AA1F-6C8EFD235A96} = {B1CBA6F1-279F-4D45-B871-5CBB68DB9203}
+		{EDB5C5E1-B08C-4402-9C38-DAA583A06DC5} = {B1CBA6F1-279F-4D45-B871-5CBB68DB9203}
+		{8B14350D-509F-4634-9349-79D513EA86CC} = {9BE85B0E-5588-4899-B423-29E4C64F2D5A}
+		{CC2A54CA-1049-4CFC-90EE-52522B5796C2} = {B1CBA6F1-279F-4D45-B871-5CBB68DB9203}
+		{D9362044-7195-40FD-8CBD-4F6F17024EB0} = {292884BC-D56F-4AEA-A6E1-AB0BFC8603E1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFBED5A4-72E2-4DBA-8E09-B6CE5B3ED756}
+	EndGlobalSection
+EndGlobal
